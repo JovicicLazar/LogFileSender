@@ -6,7 +6,7 @@ class Client:
         file = open('config.json')
         config = json.load(file)
         self.host = config['host']
-        self.port = config['port_blocks']
+        self.port = config['port']
         self.queue_size = config['client_queue_size']
 
     async def recieve_messages(self) -> None:
