@@ -8,7 +8,7 @@ LogFileSender is asyncronous server that sends data any time your desired
 
 ## Installation
 1. Clone Repo
-2. Set server host, port and log_file fields to desired values in config.json
+2. Set server host, port and log_file fields to desired values in config.json(client_queue_size field is for the number of bytes that client can receive)
 
 ## Usage
 
