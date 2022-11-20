@@ -9,7 +9,7 @@ class Server:
         file = open('config.json')
         config = json.load(file)
         self.host = config['host']
-        self.port = config['port_blocks']
+        self.port = config['port']
         self.log_file = config['log_file']
         self.peer_list = {}
 
