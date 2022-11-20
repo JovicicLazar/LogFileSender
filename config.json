@@ -1,6 +1,6 @@
 {
     "host": "127.0.0.1",
     "log_file": "name.log",
-    "port_blocks": 55555,
-    "client_queue_size": 2048
+    "port": 55555,
+    "client_queue_size": 4098
 }
